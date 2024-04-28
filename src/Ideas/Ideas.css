@@ -1,6 +1,17 @@
 .ideas-container {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  .ideas-container {
+      grid-template-columns: repeat(3, 1fr);
   }
+}
+
+@media screen and (max-width: 599px) {
+  .ideas-container {
+      grid-template-columns: 1fr;
+  }
+}
