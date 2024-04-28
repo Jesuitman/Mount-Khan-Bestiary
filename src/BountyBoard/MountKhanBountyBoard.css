@@ -24,11 +24,10 @@
     border-right: 1px solid white; /* Add right border */
   }
   
-  /* tr:nth-child(even) {
-    background-color: #f2f2f2;
-  } */
-  
-  /* tr:hover {
-    background-color: #ddd;
+  /* @media (max-width: 800px) {
+    .bounty-board table th,
+    .bounty-board table td {
+      display: none;
+    }
   } */
   

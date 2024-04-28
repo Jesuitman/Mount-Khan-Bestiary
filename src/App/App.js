@@ -2,7 +2,7 @@ import './App.css';
 import MountKhanBestiary from '../MountKhanBestiary/MountKhanBestiary';
 import QuestLog from '../MountKhanQuestLog/MountKhanQuestLog';
 import BountyBoard from '../BountyBoard/MountKhanBountyBoard';
-import khanBountyBoard from '../Resources/BountyBoardResources/BountyBoardResource';
+import LoreEntries from '../MountKhanLoreEntries/loreEntries';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -36,7 +36,7 @@ function App() {
           {/* Content for Maps tab */}
         </TabPanel>
         <TabPanel>
-          {/* Content for Lore Entries tab */}
+          <LoreEntries/>
         </TabPanel>
       </Tabs>
     </main>
