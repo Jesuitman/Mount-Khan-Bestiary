@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import Ideas from "../Ideas/Ideas";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import makeNeptuniaQuests from '../Resources/NeptuniaQuestlog';
-import makeNeptuniaPeople from '../Resources/MountKhanPeople';
-import makeNeptuniaPOI from '../Resources/MountKhanPOI\'s';
-import makeNeptuniaRumors from '../Resources/MountKhanRumors';
-import makeNeptuniaRecap from "../Resources/MountKhanRecaps"
+import makeNeptuniaQuests from '../Resources/QuestlogResources/NeptuniaQuestlog';
+import makeNeptuniaPeople from '../Resources/QuestlogResources/MountKhanPeople';
+import makeNeptuniaPOI from '../Resources/QuestlogResources/MountKhanPOIs';
+import makeNeptuniaRumors from '../Resources/QuestlogResources/MountKhanRumors';
+import makeNeptuniaRecap from "../Resources/QuestlogResources/MountKhanRecaps"
 
 function QuestLog() {
   const [quests, setQuests] = useState(makeNeptuniaQuests); 

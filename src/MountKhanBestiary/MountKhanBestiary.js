@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import Ideas from "../Ideas/Ideas";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import makeLowerKhanIdeas from '../Resources/lowerKhanIdeasData';
-import makeOuterKhanIdeas from '../Resources/outerKhanIdeasData';
+import makeLowerKhanIdeas from '../Resources/BestiaryResources/lowerKhanIdeasData';
+import makeOuterKhanIdeas from '../Resources/BestiaryResources/outerKhanIdeasData';
 
 function MountKhanBestiary() {
   const makeInnerKhanIdeas = [];

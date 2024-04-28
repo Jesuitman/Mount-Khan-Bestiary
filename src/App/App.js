@@ -1,6 +1,8 @@
 import './App.css';
 import MountKhanBestiary from '../MountKhanBestiary/MountKhanBestiary';
 import QuestLog from '../MountKhanQuestLog/MountKhanQuestLog';
+import BountyBoard from '../BountyBoard/MountKhanBountyBoard';
+import khanBountyBoard from '../Resources/BountyBoardResources/BountyBoardResource';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -23,24 +25,20 @@ function App() {
         </TabPanel>
         <TabPanel>
           <QuestLog />
-          {/* Content for Questlog tab */}
         </TabPanel>
         <TabPanel>
           {/* Content for Items Sheet tab */}
         </TabPanel>
         <TabPanel>
-          {/* Content for Bounty Board tab */}
+          <BountyBoard />
         </TabPanel>
         <TabPanel>
           {/* Content for Maps tab */}
         </TabPanel>
         <TabPanel>
-
-
+          {/* Content for Lore Entries tab */}
         </TabPanel>
       </Tabs>
-
-      {/* Mount Khan Bestiary */}
     </main>
   );
 }

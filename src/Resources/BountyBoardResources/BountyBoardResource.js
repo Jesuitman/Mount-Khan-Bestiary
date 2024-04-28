@@ -1,0 +1,13 @@
+const khanBountyBoard = [
+    {id: 1, name: "Crab Queen", dangerClass: 1, enemyClass: "Massive Crab", location: "Lower Khan", reward: "500 Gold", description: "Watch out for the Crab Queen's projectile children! She will take aim and fire after she gets hit, flip her before you hit her!", completed: true},
+    {id: 2, name: "Vorpal Crab King", dangerClass: 4, enemyClass: "Massive Vorpal Crab", location: "Outer Khan", reward: "Worpal Crab Claw Boomerang", description: "This thing's Vorpal claws can be thrown like a boomerang, a critical hit may behead you, so watch that.", completed: false},
+    {id: 3, name: "HogZilla", dangerClass: 2, enemyClass: "SuperMassive Boar", location: "Lower Khan", reward: "Teleport to Neptunia Spell is free", description: "HogZilla blocks the way to Rockface, completely disallowing trade. You need to kill it to advance, not much of a bounty is it?", completed: false},
+    {id: 4, name: "Wolfus Rex", dangerClass: 3, enemyClass: "Lunger Wolf", location: "Outer Khan", reward: "Amulet of the Wolf", description: "Wolfus Rex started a war with Lioness Mjoll, beat one of these two to vastly change the landscape!", completed: false},
+    {id: 5, name: "Lioness Mjoll", dangerClass: 3, enemyClass: "Bobcat", location: "Outer Khan", reward: "Ring of the Lion", description: "Lioness Mjoll is defending her home turf best she can, Wolfus Rex holds none of the honor that the bobcats hold. Which side will you take?", completed: false},
+    {id: 6, name: "Dearing", dangerClass: 1, enemyClass: "Dear", location: "Outer Khan", reward: "The Dearrings", description: "Caught in the crossfire of the Lion and Wolf War, the Dearing is trying its best to survive and lead its deerkind.", completed: false},
+    {id: 7, name: "Ghost Crabs", dangerClass: 2, enemyClass: "Undead Crab", location: "Lower Khan", reward: "Ghost Touch Enchantment", description: "These things are a simple pest brought about by the castle nearby, kill a bunch so we can augment your weapons and make travel safer", completed: false},
+    {id: 8, name: "Boald", dangerClass: 2, enemyClass: "Skull Demon", location: "Outer Khan", reward: "Skull Whip", description: "Boald is absolutely a pest who stalks the mushroom forests, it rose above the rest of its kind somehow, its a real headache.", completed: false},
+    {id: 9, name: "Impus the Wimpus", dangerClass: 1, enemyClass: "Imp", location: "Outer Khan", reward: "Staff of the EverImp", description: "Impus the Wimpus stole something from one of the townsfolk of Neptunia. He will abuse hit and run tactics. Asshole.", completed: false},
+]
+
+export default khanBountyBoard
