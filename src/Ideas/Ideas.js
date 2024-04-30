@@ -8,6 +8,8 @@ function Ideas({ideas,deleteIdea}){
             title={idea.title}
             description={idea.description}
             designation={idea.designation}
+            otherDetail = {idea.otherDetail}
+            otherDetail2 = {idea.otherDetail2}
             id={idea.id}
             key={idea.id}
             deleteIdea={deleteIdea}
