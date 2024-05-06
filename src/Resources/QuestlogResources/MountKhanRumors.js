@@ -5,6 +5,7 @@ const makeNeptuniaRumors = [
     {id: 10, designation: "", title: "", description: "There is a Neptunia Runicorn at the center of the Produce Aisle"},
     {id: 10, designation: "", title: "", description: "What is the deal with the adventurer you freed? Could he be planning something?"},
     {id: 10, designation: "", title: "", description: "Where did Evil Timimus go? And did the town of Acornwood survive his arrival? Why is smoke coming from Acornwood?"},
+    {id: 10, designation: "", title: "", description: "So it turns out FuqFace is a Bronze Dragon. Who knew? Also his ex wife is apparently a Flesh Smith."},
   ]
 
 export default makeNeptuniaRumors

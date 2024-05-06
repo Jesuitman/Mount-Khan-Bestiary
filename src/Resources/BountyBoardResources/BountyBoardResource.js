@@ -8,6 +8,10 @@ const khanBountyBoard = [
     {id: 7, name: "Ghost Crabs", dangerClass: 2, enemyClass: "Undead Crab", location: "Lower Khan", reward: "Ghost Touch Enchantment", description: "These things are a simple pest brought about by the castle nearby, kill a bunch so we can augment your weapons and make travel safer", completed: false},
     {id: 8, name: "Boald", dangerClass: 2, enemyClass: "Skull Demon", location: "Outer Khan", reward: "Skull Whip", description: "Boald is absolutely a pest who stalks the mushroom forests, it rose above the rest of its kind somehow, its a real headache.", completed: false},
     {id: 9, name: "Impus the Wimpus", dangerClass: 1, enemyClass: "Imp", location: "Outer Khan", reward: "Staff of the EverImp", description: "Impus the Wimpus stole something from one of the townsfolk of Neptunia. He will abuse hit and run tactics. Asshole.", completed: false},
+    {id: 9, name: "Stoneface", dangerClass: 3, enemyClass: "Lesser Mountain Elemental", location: "Lower Khan", reward: "1/3rd of a Stone Mask", description: "Apparently this mountain elemental is the reason for the abundance of mountain elementals outside of DarkHold", completed: false},
+    {id: 9, name: "Māori", dangerClass: 5, enemyClass: "Mountain Elemental", location: "Khan Forests", reward: "1/3rd of a Stone Mask", description: "This mountain elemental has been creating endless storms in the forests, it's making all the creatures there super upset. Take it down.", completed: false},
+    {id: 9, name: "Easter", dangerClass: 9, enemyClass: "Greater Mountain Elemental", location: "Upper Khan", reward: "1/3rd of a Stone Mask", description: "Easter has been compiling the entire peak into its body. Even if the Tower isn't functioning, this elemental threatens all of us!", completed: false},
+    
 ]
 
 export default khanBountyBoard

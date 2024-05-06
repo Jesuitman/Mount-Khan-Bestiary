@@ -4,18 +4,18 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import makeLowerKhanIdeas from '../Resources/BestiaryResources/lowerKhanIdeasData';
 import makeOuterKhanIdeas from '../Resources/BestiaryResources/outerKhanIdeasData';
+import makeUpperKhanBestiary from '../Resources/BestiaryResources/upperKhanbestiary';
 
 function MountKhanBestiary() {
   const makeInnerKhanIdeas = [];
   const makeKhanForestIdeas = [];
-  const makeUpperKhanIdeas = [];
   const makeMoonIdeas = [];
 
   const [lowerKhanIdeas, setLowerKhanIdeas] = useState(makeLowerKhanIdeas);
   const [outerKhanIdeas, setOuterKhanIdeas] = useState(makeOuterKhanIdeas);
   const [innerKhanIdeas, setInnerKhanIdeas] = useState(makeInnerKhanIdeas);
   const [khanForestIdeas, setKhanForestIdeas] = useState(makeKhanForestIdeas);
-  const [upperKhanIdeas, setUpperKhanIdeas] = useState(makeUpperKhanIdeas);
+  const [upperKhanIdeas, setUpperKhanIdeas] = useState(makeUpperKhanBestiary);
   const [moonIdeas, setMoonIdeas] = useState(makeMoonIdeas);
 
   return (
